@@ -1,0 +1,49 @@
+body{
+    margin: 1em 5em 5em 5em;
+}
+.titulos{
+    color: #333;    
+    display: flex;
+    justify-content: center;    
+}
+.btn1{
+    color: aliceblue;
+    background-color: #333;
+    padding: 1em;
+    border-radius: 10%;
+  text-decoration-color: #e4dfdf;
+    margin: 0em 0em 5em 0em ;
+}
+.btn1:hover{
+    color: rgb(20, 20, 20);
+    background-color: #e4dfdf;
+    
+a{
+    text-decoration: none;
+    color: #030303;
+}
+}
+hr{
+    margin: 2em;
+}
+.cards{
+    width: fit-content;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    border-radius: 2em;
+}
+.cards:hover{
+    background-color: #333;
+    color: #e4dfdf;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #333;
+    margin-top: 2em;
+}
